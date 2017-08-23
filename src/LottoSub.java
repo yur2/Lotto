@@ -13,7 +13,7 @@ public class LottoSub {
  public void Winning_number() {
 
   for (int i = 0; i < 6; i++) {
-   int num = (int) (Math.random() * 2) + 1;
+   int num = (int) (Math.random() * 45) + 1;
    number[i] = num;
 
   }
@@ -53,37 +53,37 @@ public class LottoSub {
 
   if (number[0] == number1[0]) {
    System.out.println("\n\n\n\n\n\n\n\n(" + number[0] + " = " + number1[0] + ")  첫번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else  {
    System.out.println("\n\n\n\n\n\n\n\n첫번째 수 틀림\n");
   }
 
   if (number[1] == number1[1]) {
    System.out.println("(" + number[1] + " = " + number1[1] + ") 두번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else  {
    System.out.println("두번째 수 틀림\n");
   }
 
   if (number[2] == number1[2]) {
    System.out.println("(" + number[2] + " = " + number1[2] + ") 세번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else  {
    System.out.println("세번째 수 틀림\n");
   }
 
   if (number[3] == number1[3]) {
    System.out.println("(" + number[3] + " = " + number1[3] + ") 네번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else {
    System.out.println("네번째 수 틀림\n");
   }
 
   if (number[4] == number1[4]) {
    System.out.println("(" + number[4] + " = " + number1[4] + ") 다섯번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else {
    System.out.println("다섯번째 수 틀림\n");
   }
 
   if (number[5] == number1[5]) {
    System.out.println("(" + number[5] + " = " + number1[5] + ") 여섯번째 수 맞음\n");
-  } else if (number[0] != number1[0]) {
+  } else  {
    System.out.println("여섯번째 수 틀림\n");
   }
 
